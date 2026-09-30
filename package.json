@@ -1,0 +1,14 @@
+{
+  "name": "spatial-model-editor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test project.test.mjs",
+    "check": "node --check app.js && node --check project.mjs && node --check server.mjs && node --test project.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

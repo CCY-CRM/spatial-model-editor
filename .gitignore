@@ -1,0 +1,4 @@
+.env.local
+recognition-sample.json
+staged-sample.json
+node_modules/
