@@ -28,6 +28,7 @@ jobs:
         run: |
           unzip -o spatial-model-editor.zip
           rm spatial-model-editor.zip
+          rm -f .github/workflows/pages.yml
       - name: Commit project files
         run: |
           git config user.name "github-actions[bot]"
